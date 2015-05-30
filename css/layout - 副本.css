@@ -1,0 +1,48 @@
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	text-align:left;
+	background:yellow;
+	}
+#header {
+	float:left;
+	width:100%;
+	/*background:red;*/
+	}
+#header #guide {
+	float:left;
+	background:red;
+	width:100%;
+	height:100px;
+	}
+
+#header #guide #choice{
+	float:left;
+	width:19%;
+	text-align: center;
+	}
+.nav {
+	float:left;
+	background:#eee;
+	width:100%;
+	height:10px;
+	}
+#main {
+	float:left;
+	width:100%;
+	min-height: 800px;
+	height:auto !important;
+	background:#FAF6ED;
+	}
+#footer {
+	float:left;
+	width:100%;
+	height:30px;
+	background:green;
+	}
+#footer #guide #choice{
+	float:left;
+	width:24%;
+	text-align: center;
+	}

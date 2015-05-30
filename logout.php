@@ -1,0 +1,1 @@
+﻿<?phpsession_start();unset($_SESSION["userid"]);unset($_SESSION["username"]);echo '<script>';echo 'alert("注销成功，重新进入登录页面");';echo "location.href='index.php';"; echo '</script>';?>

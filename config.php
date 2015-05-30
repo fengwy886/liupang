@@ -1,0 +1,9 @@
+﻿<?php
+//数据库信息配置
+define("HOST","localhost");
+define("USER","php");
+define("PASSWORD","123456");
+define("DBNAME","php");
+define("PICTURE_DIR",'./uploads/');
+define("ACCESS_DIR",'C:/Users/feng/Desktop/na/');
+?>

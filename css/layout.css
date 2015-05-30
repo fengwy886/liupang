@@ -1,0 +1,77 @@
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	text-align:left;
+	background:yellow;
+	}
+#header {
+	float:left;
+	width:100%;
+	height:100px;
+	/*background:red;*/
+	}
+
+#header  #logo{
+	float:left;
+	height: 70px;
+	width: 100%;
+	background-color: #BF4D4D;
+}
+#header #guide {
+	float:left;
+	height:30px;
+	width:100%;
+	background-color: #BF4D4D; 
+	}
+
+#header #guide ul{
+	float:left;
+	margin: 0 0 0 30px; 
+	padding: 0px; 
+	font-size: 12px; 
+	color: #FFF; 
+	line-height: 30px; 
+	white-space: nowrap; 
+	}
+
+#header #guide li { 
+	list-style-type: none; 
+	display: inline; 
+}
+
+#header #guide li a { 
+	text-decoration: none; 
+	font-family: Arial, Helvetica, sans-serif; 
+	padding: 7px 10px; 
+	color: #FFF; 
+}
+  
+#header #guide li a:hover { 
+	color: #ff0; 
+	background-color: #f00; 
+} 
+.nav {
+	float:left;
+	background:#eee;
+	width:100%;
+	height:10px;
+	}
+#main {
+	float:left;
+	width:100%;
+	min-height: 800px;
+	height:auto !important;
+	background:#FAF6ED;
+	}
+#footer {
+	float:left;
+	width:100%;
+	height:30px;
+	background:green;
+	}
+#footer #guide #choice{
+	float:left;
+	width:24%;
+	text-align: center;
+	}
